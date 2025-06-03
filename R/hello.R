@@ -1,6 +1,6 @@
 #' @export
 #' @useDynLib quickrtest, .registration = TRUE
-convolve <- quickr::quick(function(a, b) {
+convolve <- quickr::quick(name = "convolve", function(a, b) {
   declare(type(a = double(NA)),
           type(b = double(NA)))
   ab <- double(length(a) + length(b) - 1)

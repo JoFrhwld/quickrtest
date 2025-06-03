@@ -7,6 +7,8 @@ usethis::use_package("quickr")
 
 usethis::use_namespace(roxygen = TRUE)
 
+fs::dir_delete("src")
+
 quickr::compile_package()
 
 devtools::document()
