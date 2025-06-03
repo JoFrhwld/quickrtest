@@ -1,0 +1,28 @@
+{
+  "R": {
+    "Version": "4.4.2",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cran.rstudio.com"
+      }
+    ]
+  },
+  "Python": {
+    "Version": "3.12.2",
+    "Type": "virtualenv",
+    "Name": "/Users/joseffruehwald/.pyenv/versions/3.12.2/envs/tidynorm"
+  },
+  "Packages": {
+    "renv": {
+      "Package": "renv",
+      "Version": "1.0.7",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "397b7b2a265bc5a7a06852524dabae20"
+    }
+  }
+}
